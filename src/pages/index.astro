@@ -1,6 +1,11 @@
 ---
+import Navigation from '../components/Navigation.astro';
+import '../styles/global.css';
+import {SliderElement} from '../components/SliderElement.js';
+import SliderElementUi from '../components/SliderElementUi.astro';
 ---
 
+<Navigation / >
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -11,5 +16,7 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<SliderElementUi/>
+
 	</body>
 </html>
